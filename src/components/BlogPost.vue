@@ -33,28 +33,28 @@ export default {
     return {
       blogs: [
         {
-          image: "../../01.png",
+          image: "../../public/01.png",
           date: "September 12  I Read in 6 minutes",
           title: "Cactus & Succulent Care Tips",
           description:
             "Cacti are succulents are easy care plants for any home or patio. ",
         },
         {
-          image: "../../02.png",
+          image: "../../public/02.png",
           date: "September 13  I Read in 2 minutes",
           title: "Top 10 Succulents for Your Home",
           description:
             "Best in hanging baskets. Prefers medium to high light. ",
         },
         {
-          image: "../../03.png",
+          image: "../../public/03.png",
           date: "September 15  I Read in 3 minutes",
           title: "Cacti & Succulent Care Tips",
           description:
             "Cacti are succulents are easy care plants for any home or patio. ",
         },
         {
-          image: "../../04.png",
+          image: "../../public/04.png",
           date: "September 12  I Read in 6 minutes",
           title: "Best Houseplants Room by Room",
           description:

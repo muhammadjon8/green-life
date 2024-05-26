@@ -108,55 +108,55 @@ export default {
       isActive: false,
       products: [
         {
-          image: "../product.png",
+          image: "../../public/product.png",
           description: "Barberton Daisy",
           price: "120",
           sale: "",
         },
         {
-          image: "../pr_gul.png",
+          image: "../../public/pr_gul.png",
           description: "Angel Wing Begonia",
           price: "105",
           sale: "",
         },
         {
-          image: "../pr_tuvak.png",
+          image: "../../public/pr_tuvak.png",
           description: "Barberton Daisy",
           price: "134",
           sale: "229",
         },
         {
-          image: "../product.png",
+          image: "../../public/product.png",
           description: "Jest Begonia",
           price: "112",
           sale: "",
         },
         {
-          image: "../pr_gul.png",
+          image: "../../public/pr_gul.png",
           description: "Barberton Kels",
           price: "320",
           sale: "",
         },
         {
-          image: "../pr_tuvak.png",
+          image: "../../public/pr_tuvak.png",
           description: "Superme Wing Begonia",
           price: "380",
           sale: "",
         },
         {
-          image: "../product.png",
+          image: "../../public/product.png",
           description: "Olde Daisy",
           price: "160",
           sale: "",
         },
         {
-          image: "../pr_gul.png",
+          image: "../../public/pr_gul.png",
           description: "Erst Polsj",
           price: "100",
           sale: "",
         },
         {
-          image: "../pr_tuvak.png",
+          image: "../../public/pr_tuvak.png",
           description: "Termos Heraw",
           price: "230",
           sale: "",
@@ -179,5 +179,4 @@ a.active {
   background-color: #047857; /* Equivalent to bg-green-600 */
   color: white; /* Equivalent to text-white */
 }
-
 </style>

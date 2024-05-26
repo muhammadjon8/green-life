@@ -56,19 +56,19 @@ export default {
     return {
       newsletter: [
         {
-          image: "../../kaktus.png",
+          image: "../../public/kaktus.png",
           title: "Garden Care",
           description:
             "We are an online plant shop offering a wide range of cheap and trendy plants.",
         },
         {
-          image: "../../kaktus2.png",
+          image: "../../public/kaktus2.png",
           title: "Plant Renovation",
           description:
             "We are an online plant shop offering a wide range of cheap and trendy plants.",
         },
         {
-          image: "../../kaktus3.png",
+          image: "../../public/kaktus3.png",
           title: "Watering Garden",
           description:
             "We are an online plant shop offering a wide range of cheap and trendy plants.",
