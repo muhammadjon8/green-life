@@ -4,9 +4,9 @@
       <div class="flex gap-8 justify-between">
         <div class="flex">
           <div class="relative flex">
-            <img src="./image 14.png" alt="" />
+            <img src="../../public/image 14.png" alt="" />
             <img
-              src="./bezak.png"
+              src="../../public/bezak.png"
               alt=""
               class="absolute h-[200px] w-[586px] bottom-0"
             />
@@ -28,9 +28,9 @@
         </div>
         <div class="flex">
           <div class="relative flex">
-            <img src="./image 15.png" alt="" />
+            <img src="../../public/image 15.png" alt="" />
             <img
-              src="./bezak.png"
+              src="../../public/bezak.png"
               alt=""
               class="absolute h-[200px] w-[586px] bottom-0"
             />

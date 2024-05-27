@@ -44,9 +44,9 @@
         </div>
       </div>
       <div class="sale_banner flex justify-center flex-col items-center">
-        <img src="./Super Sale.png" alt="" />
+        <img src="../../public/Super Sale.png" alt="" />
         <h3 class="font-bold text-2xl">UP TO 75% OFF</h3>
-        <img src="./sale_banner.png" alt="" />
+        <img src="../../public/sale_banner.png" alt="" />
       </div>
     </div>
   </div>
