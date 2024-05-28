@@ -2,7 +2,9 @@
   <div>
     <Login v-if="isModal" @close="closeModal" />
     <div class="container">
-      <div class="flex justify-between border border-x-white border-b-green-700 py-8">
+      <div
+        class="flex justify-between border border-x-white border-b-green-700 py-8"
+      >
         <div>
           <img src="../assets/Group.png" alt="Logo" />
         </div>
@@ -34,10 +36,10 @@
 </template>
 
 <script>
-import Login from '../components/Login.vue';
+import Login from "../components/Login.vue";
 
 export default {
-  name: 'ParentComponent',
+  name: "ParentComponent",
   components: {
     Login,
   },
@@ -55,6 +57,20 @@ export default {
     },
   },
 };
+document.addEventListener("DOMContentLoaded", function () {
+  const password = document.getElementById("password");
+  const togglePassword = document.getElementById("togglePassword");
+
+  togglePassword.addEventListener("click", function () {
+    // Toggle the type attribute
+    const type =
+      password.getAttribute("type") === "password" ? "text" : "password";
+    password.setAttribute("type", type);
+
+    // Toggle the eye icon (optional, you can use different icons)
+    this.textContent = type === "password" ? "👁️" : "🙈";
+  });
+});
 </script>
 
 <style lang="css" scoped>

@@ -44,11 +44,20 @@
           </div>
           <div class="flex relative flex-col">
             <input
-              type="password"
+              :type="showPassword ? 'text' : 'password'"
               class="w-[300px] px-3 h-[40px] border rounded border-black/10 outline-none pr-8 focus:border-green-600"
             />
             <img
+              v-if="showPassword"
+              @click="showPassword1"
               src="../assets/hidden.svg"
+              alt=""
+              class="absolute right-2 top-3"
+            />
+            <img
+              v-else
+              @click="showPassword1"
+              src="../assets/visible.svg"
               alt=""
               class="absolute right-2 top-3"
             />
@@ -135,11 +144,15 @@ export default {
   data() {
     return {
       content: "login",
+      showPassword: false,
     };
   },
   methods: {
     closeModal() {
       this.$emit("close");
+    },
+    showPassword1() {
+      this.showPassword = !this.showPassword;
     },
   },
 };
