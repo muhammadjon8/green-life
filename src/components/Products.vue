@@ -4,7 +4,7 @@
       <div class="flex justify-between py-4">
         <div class="flex justify-between gap-8">
           <a
-            href="#products"
+            href="#g"
             :class="{ active: activeLink === 'all' }"
             @click="toggleActive('all')"
             class="border-b-2 cursor-pointer"
@@ -12,7 +12,7 @@
             All Plants
           </a>
           <a
-            href="#products"
+            href="#g"
             :class="{ active: activeLink === 'new' }"
             @click="toggleActive('new')"
             class="border-b-2 cursor-pointer"
@@ -20,7 +20,7 @@
             New Arrivals
           </a>
           <a
-            href="#products"
+            href="#g"
             :class="{ active: activeLink === 'sale' }"
             @click="toggleActive('sale')"
             class="border-b-2 cursor-pointer"
