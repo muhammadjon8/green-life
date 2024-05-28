@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container">
-      <div class="flex justify-between">
+      <div class="flex justify-between max-sm:flex-col">
         <div v-for="(item, index) in newsletter" :key="index">
           <div>
             <img :src="item.image" alt="" class="w-[85px] h-[85px]" />
@@ -31,7 +31,7 @@
           </p>
         </div>
       </div>
-      <div class="flex py-5 bg-[#46A3581A] gap-[150px] items-center">
+      <div class="flex py-5 bg-[#46A3581A] md:gap-[150px] items-center max-sm:flex-col">
         <img src="../assets/Group.png" alt="" />
         <div class="flex gap-3">
           <img src="../assets/location.svg" alt="" />

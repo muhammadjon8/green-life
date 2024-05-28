@@ -3,16 +3,16 @@
     <div class="container">
       <div class="flex flex-col items-center py-8">
         <h2 class="text-[30px] font-bold">OUR BLOG POST</h2>
-        <p class="text-[#727272]">
+        <p class="text-[#727272] text-center">
           We are an online plant shop offering a wide range of cheap and trendy
           plants.
         </p>
       </div>
-      <div class="flex items-center justify-between">
+      <div class="flex max-sm:flex-col items-center justify-between">
         <div
           v-for="(post, index) in blogs"
           :key="index"
-          class="flex flex-col items-center"
+          class="flex flex-col items-center max-sm:py-2"
         >
           <img :src="post.image" alt="" class="w-[270px] h-[220px]" />
           <div class="flex px-3 flex-col w-[270px] items-start gap-1">
