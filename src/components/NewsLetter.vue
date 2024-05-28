@@ -24,7 +24,7 @@
               Join
             </button>
           </div>
-          <p class="text-[#727272]">
+          <p class="text-[#727272] max-sm:w-[350px]">
             We usually post offers and challenges in newsletter. We’re your
             online houseplant destination. We offer a wide range of houseplants
             and accessories shipped directly from our (green)house to yours!
