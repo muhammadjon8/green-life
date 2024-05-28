@@ -8,7 +8,7 @@
       class="fixed bg-white top-1/2 left-1/2 rounded -translate-x-1/2 -translate-y-1/2 w-[500px] p-5 z-20"
     >
       <div class="flex justify-end">
-        <button @click="closeModal">X</button>
+        <button @click="closeModal" class="border border-red-500 py-1 px-2 rounded  text-red-500 font-bold">X</button>
       </div>
       <div class="flex justify-center divide-x-2 divide-green-600">
         <button
