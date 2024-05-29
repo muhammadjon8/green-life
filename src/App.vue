@@ -1,4 +1,4 @@
-<script >
+<script>
 import Navbar from "./components/Navbar.vue";
 import MainPage from "./components/MainPage.vue";
 import Products from "./components/Products.vue";
@@ -7,6 +7,7 @@ import Specials from "./components/Specials.vue";
 import BlogPost from "./components/BlogPost.vue";
 import NewsLetter from "./components/NewsLetter.vue";
 import Login from "./components/Login.vue";
+import FooterUrl from "./components/FooterUrl.vue";
 
 export default {
   components: {
@@ -18,12 +19,12 @@ export default {
     BlogPost,
     NewsLetter,
     Login,
+    FooterUrl,
   },
-}
+};
 </script>
 
 <template>
-  
   <div>
     <Navbar class="pb-9" />
     <MainPage />
@@ -34,6 +35,7 @@ export default {
     <Specials class="py-10" />
     <BlogPost class="py-10" />
     <NewsLetter class="py-10" />
+    <FooterUrl class="py-10" />
   </div>
 </template>
 
